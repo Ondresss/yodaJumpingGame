@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YodaJump</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script src="JSmodules/ui.js" defer></script>
+    <script src="JSmodules/score.js" defer></script>
+    <script src="JSmodules/player.js" defer></script>
+    <script src="JSmodules/particles.js" defer></script>
+    <script src="JSmodules/enemy.js" defer></script>
+    <script src="JSmodules/enemyBombs.js" defer></script>
+    <script src="JSmodules/backgroundLayer.js" defer></script>
+    <script src="JSmodules/backSide.js" defer></script>
+    <link rel="shortcut icon" href="img/yoda1.png" type="image/x-icon">
+
+    
+</head>
+<body>
+
+
+    <div class="opening-screen">
+        <article class="heading">
+            <h1>YodaJump</h1>
+            <button class="startBTN">START GAME</button>
+        </article>
+        <div class="controlsBack">
+
+        </div>
+    </div>
+
+    <div class="bgGlass">
+
+    </div>
+
+    <img src="img/HuGGeENt6kGyixe3hT9tnY.jpg" style="display: none;" class="bg" alt="">
+    <img class="wall" style="display: none; " src="img/sand1.png" alt="">
+    <img style="display: none;" class="yoda" src="img/yoda1.png" alt="">
+    <img style="display: none;" class="ground" src="img/depositphotos_341043514-stock-photo-seamless-scifi-panels-futuristic-texture.jpg" alt="">
+    <img style="display: none;" class="build" src="img/73ba0d661ae9fb86d0fbc98cee081d2e.jpg" alt="">
+    <img  class="bars" style="display:none;" src="img/360_F_289426387_Z93yC3nZDn0plz731mmXKs5z8VHdTIzt.jpg" alt="">
+    <img class="log" style="display: none;" src="img/7890b8bce835b432af3850dce237b28c.jpg" alt="">
+    <img style="display:none" class="yoda2" src="img/yoda2.png" alt="yoda2">
+    <img style="display: none;" src="img/2886737.webp" class="enemyImage" alt="">
+    <img class="hole" style="display: none;" src="img/photo-1530840197133-665af68f9d71.jpg" alt="hole">
+
+    <div style="display:none;" class="powerUp" >
+        <i class="fa fa-fire" style="font-size:64px;margin-left: 28%;margin-top: 10%;"></i>
+    </div>
+    <div style="display:none;" class="infoBTN" >
+        <i class="fa fa-info-circle" style="font-size:64px;margin-left: 28%;margin-top: 10%;"></i>
+    </div>
+    <div style="display:none;" class="shieldBTN">
+        <i style="font-size:64px;margin-left: 28%;margin-top: 10%;" class="fa fa-shield" aria-hidden="true" ></i>
+    </div>
+
+    <div  style="display: none;" class="scorePanel">
+        
+    </div>
+
+    <div style="display: none;" class="lifePanel">
+
+    </div>
+
+    <div class="timer" style="display:none">
+
+    </div>
+
+    <div style="display:none;" class="endingMenu">
+
+    </div>
+
+    <audio class="yodaAudio" controls autoplay muted >
+        <source src="sounds/Star Wars Theme Song By John Williams.mp3" >
+    </audio>
+
+    <canvas class="canvas"></canvas>
+</body>
+</html>
